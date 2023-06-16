@@ -29,7 +29,7 @@ body {
 section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   scroll-snap-align: center;
   flex-direction: column;
   height: 100vh;
@@ -68,55 +68,46 @@ section.section-expanded {
 
 .sun-title,
 .sun-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(255, 115, 0);
 }
 
 .mercury-title,
 .mercury-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(161, 126, 79);
 }
 
 .venus-title,
 .venus-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(212, 139, 3);
 }
 
 .earth-title,
 .earth-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(30, 156, 61);
 }
 
 .mars-title,
 .mars-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(146, 51, 22);
 }
 
 .jupiter-title,
 .jupiter-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(163, 115, 60);
 }
 
 .saturn-title,
 .saturn-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(134, 90, 8);
 }
 
 .uranus-title,
 .uranus-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(130, 189, 207);
 }
 
 .neptune-title,
 .neptune-title:hover {
-  font-family: "Tomorrow", Arial, sans-serif;
   color: rgb(5, 47, 187);
 }
 
