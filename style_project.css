@@ -193,10 +193,6 @@ h2 {
   transition: opacity 0.2s;
 }
 
-/* .read-more-button:hover {
-  opacity: 0.7;
-} */
-
 .cookie-notification {
   display: block;
   position: fixed;
@@ -313,7 +309,7 @@ h2 {
   gap: 0.7rem;
 }
 
-@media (min-width: 748px) {
+@media (min-width: 748px) and (orientation: portrait) {
   .description {
     font-size: 2rem;
   }
@@ -338,7 +334,22 @@ h2 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 969px) and (orientation: landscape) {
+  .planet-image {
+    max-width: 5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  #menu ul {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+}
+
+@media (min-width: 1200px) {
   section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
