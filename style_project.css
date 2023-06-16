@@ -33,7 +33,7 @@ section {
   scroll-snap-align: center;
   flex-direction: column;
   height: 100vh;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
   margin: 0 0 10rem 0;
 }
 
@@ -123,7 +123,7 @@ section.section-expanded {
 .planet-image {
   object-fit: cover;
   width: 100%;
-  max-width: 25rem;
+  max-width: 15rem;
 }
 
 .planet-model {
@@ -202,9 +202,9 @@ h2 {
   transition: opacity 0.2s;
 }
 
-.read-more-button:hover {
+/* .read-more-button:hover {
   opacity: 0.7;
-}
+} */
 
 .cookie-notification {
   display: block;
@@ -335,6 +335,10 @@ h2 {
     font-size: 1.5rem;
   }
 
+  .planet-image {
+    max-width: 25rem;
+  }
+
   .read-more-button {
     margin-top: 2rem;
     max-width: fit-content;
@@ -429,6 +433,10 @@ h2 {
     margin-bottom: 1.2rem;
     gap: 1.2rem;
   }
+
+  .read-more-button:hover {
+    opacity: 0.7;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -443,6 +451,10 @@ h2 {
   .section-heading {
     font-size: 4rem;
   }
+
+  .read-more-button:hover {
+    opacity: 0.7;
+  }
 }
 
 @media (min-width: 2000px) {
@@ -452,6 +464,10 @@ h2 {
 
   .planet-description {
     max-width: 40rem;
+  }
+
+  .read-more-button:hover {
+    opacity: 0.7;
   }
 }
 
