@@ -29,10 +29,10 @@ body {
 section {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   scroll-snap-align: center;
   flex-direction: column;
-  height: 100svh;
+  height: 100vh;
   padding: 1rem;
 }
 
@@ -46,7 +46,6 @@ section p {
   overflow-x: hidden;
   background-color: #000000;
   color: #ffffff;
-  overflow: hidden;
 }
 
 section.section-expanded {
@@ -353,7 +352,7 @@ h2 {
     padding-top: 5rem;
   }
 
-  .section p {
+  section p {
     font-size: 1.5rem;
   }
 
@@ -398,7 +397,6 @@ h2 {
 
   .section-heading {
     font-size: 3rem;
-    /* margin-bottom: 2rem; */
   }
 
   #menu {
