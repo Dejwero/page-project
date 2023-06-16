@@ -29,11 +29,12 @@ body {
 section {
   display: flex;
   align-items: center;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
   scroll-snap-align: center;
   flex-direction: column;
   height: 100vh;
   padding: 1rem;
+  margin: 0 0 10rem 0;
 }
 
 section p {
