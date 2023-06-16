@@ -41,9 +41,11 @@ section p {
 }
 
 .section-expanded {
-  min-height: 100svh;
+  min-height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 section.section-expanded {
@@ -201,11 +203,6 @@ h2 {
 
 .read-more-button:hover {
   opacity: 0.7;
-}
-
-.section-expanded {
-  background-color: #000000;
-  color: #ffffff;
 }
 
 .cookie-notification {
