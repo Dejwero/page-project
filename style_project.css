@@ -46,6 +46,7 @@ section p {
   overflow-x: hidden;
   background-color: #000000;
   color: #ffffff;
+  overflow: hidden;
 }
 
 section.section-expanded {
