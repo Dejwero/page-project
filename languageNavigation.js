@@ -45,7 +45,6 @@ const jupiterMoreText = document.querySelector("#jupiter-more-text");
 const saturnMoreText = document.querySelector("#saturn-more-text");
 const uranusMoreText = document.querySelector("#uranus-more-text");
 const neptuneMoreText = document.querySelector("#neptune-more-text");
-//
 
 let selectedLanguage = "pl";
 
@@ -118,7 +117,6 @@ const language = {
       'Atmosfera składa się głównie z wodoru i helu, ale także zawiera metan, który nadaje planecie niezwykły odcień. To właśnie metan pochłania czerwone światło słoneczne i odbija niebieskie, co sprawia, że Uran prezentuje się jako niebieska kula na tle kosmosu. Uran jest również znany ze swojego unikalnego ułożenia orbitalnego. Planeta ta ma silnie nachyloną oś obrotu, co sprawia, że poruszanie się wokół Słońca przypomina jej "toczenie się na boku". Dlatego Uran nazywany jest również "leżącym na boku gigantem".',
     neptuneMoreText:
       "Jednym z najbardziej znanych i fascynujących zjawisk na Neptunie jest Wielkie Ciemne Plamienie. Jest to olbrzymi wir atmosferyczny, który jest obserwowany na powierzchni planety od ponad 150 lat. To dynamiczne zjawisko, które przypomina ogromny huragan, występujący w górnych warstwach atmosfery planety. Neptun posiada również system księżyców, z których najbardziej znanym jest Tryton. Jest on jednym z największych księżyców w Układzie Słonecznym i ma niezwykłe cechy, takie jak obecność gejzerów i możliwość posiadania podpowierzchniowego oceanu.",
-    //
   },
   en: {
     sun: "Sun",
@@ -187,7 +185,6 @@ const language = {
       'Atmosphere is mostly hydrogen and helium, but it also contains methane, which gives the planet its unusual hue. It is methane that absorbs red sunlight and reflects blue light, which makes Uranus appear as a blue orb against the backdrop of space. Uranus is also known for its unique orbital arrangement. This planet has a strongly tilted axis of rotation, which makes it feel like "rolling on its side" as it moves around the sun. That is why Uranus is also called the "side-lying giant."',
     neptuneMoreText:
       "One of the most famous and fascinating phenomena on Neptune is the Great Dark Spotting. It is a giant atmospheric vortex that has been observed on the planet's surface for over 150 years. It is a dynamic phenomenon that resembles a huge hurricane that occurs in the upper atmosphere of the planet. Neptune also has a system of moons, the most famous of which is Triton. It is one of the largest moons in the solar system and has unusual features such as the presence of geysers and the possibility of a subsurface ocean.",
-    //
   },
   // By dodać nowy język wystarczy dodać analogiczny obiekt i przetłumaczyć tekst
 };
